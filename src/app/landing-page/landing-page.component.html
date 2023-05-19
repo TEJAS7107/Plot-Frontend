@@ -1,0 +1,18 @@
+<mat-toolbar class="header cl">
+  <mat-toolbar-row style="justify-content: space-between">
+      <span>
+
+      </span>
+
+          <span class="headingText tt">
+              Admin-Dashboard
+          </span>
+      <span>
+          <!-- <button mat-icon-button class="example-icon"  (click)="logout()">
+              <mat-icon matTooltip="Logout" class="fontsize-25">logout</mat-icon>
+          </button> -->
+          <app-user-template (signOut)="logout()"></app-user-template>
+
+      </span>
+  </mat-toolbar-row>
+</mat-toolbar>
